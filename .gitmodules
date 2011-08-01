@@ -1,0 +1,3 @@
+[submodule "jordan"]
+	path = jordan
+	url = git://github.com/secretiverhyme/dotfiles.git
