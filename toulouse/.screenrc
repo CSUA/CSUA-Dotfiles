@@ -1,0 +1,54 @@
+# $Id: screenrc,v 1.3 1998-06-15 20:06:42-07 mconst Exp mconst $
+
+#Support UTF-8.
+defutf8 on
+
+#Add neato titlebar and windowlist.
+hardstatus on
+hardstatus alwayslastline
+
+#caption always "%{= C}screen[%n] | %c | %h%="
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %D %m/%d %C%a " 
+windowlist string " screen[%n %t] %h"
+
+altscreen on
+
+# make "kill this window" a bit harder to hit
+bind ! kill
+
+# don't lock up when one display dies
+defnonblock on
+
+# keep 5000 lines of history in all windows
+defscrollback 10000
+
+# make the timeout for multicharacter key bindings nice and short
+maptimeout 100
+
+# let messages be displayed for a long time if they're not interrupted
+msgwait 2
+
+# use interesting messages
+nethack on
+
+# by default, wait an entire minute before deciding a window is silent
+silencewait 60
+
+# suppress the default startup message
+startup_message off
+
+# turn on autodetach
+autodetach on
+
+# pretend to be a vt100, since no one has heard of terminal type "screen"
+# term screen
+
+# use an xterm's title bar to display the hardstatus line
+# termcapinfo xterm hs:ts=\E]0;:fs=\007:ds=\E]0;\007
+
+vbell off
+
+#reportidle
+#deflogin off
+
+screen -t "] |login" 0
