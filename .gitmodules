@@ -1,3 +1,6 @@
 [submodule "jordan"]
 	path = jordan
 	url = git://github.com/secretiverhyme/dotfiles.git
+[submodule "jayferd"]
+	path = jayferd
+	url = git://github.com/jayferd/dot
