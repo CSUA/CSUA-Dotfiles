@@ -7,3 +7,6 @@
 [submodule "toulouse"]
 	path = toulouse
 	url = git://github.com/toulouse/dotfiles.git
+[submodule "emacs/mjsteger"]
+	path = emacs/mjsteger
+	url = git://github.com/mjsteger/emacsd.git
