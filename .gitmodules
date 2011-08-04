@@ -4,3 +4,6 @@
 [submodule "jayferd"]
 	path = jayferd
 	url = git://github.com/jayferd/dot
+[submodule "toulouse"]
+	path = toulouse
+	url = git://github.com/toulouse/dotfiles.git
