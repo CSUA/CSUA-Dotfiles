@@ -10,3 +10,6 @@
 [submodule "emacs/mjsteger"]
 	path = emacs/mjsteger
 	url = git://github.com/mjsteger/emacsd.git
+[submodule "zipcodeman"]
+	path = zipcodeman
+	url = git://github.com/zipcodeman/dotfiles.git
